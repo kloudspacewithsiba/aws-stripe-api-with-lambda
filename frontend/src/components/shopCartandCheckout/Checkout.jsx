@@ -1,8 +1,6 @@
 import { useContextElement } from "@/context/Context";
 import { Link } from "react-router-dom";
 import React, { useState } from 'react';
-import { loadStripe } from '@stripe/stripe-js'
-import { Elements } from '@stripe/react-stripe-js'
 
 // Countries
 const countries = [
@@ -333,6 +331,7 @@ export default function Checkout() {
               </table>
             </div>
             <div className="checkout__payment-methods">
+              {/* Stripe Elements component */}
               <div className="form-check" style={{ paddingLeft: 0}}>
               Stripe goes here
               </div>
