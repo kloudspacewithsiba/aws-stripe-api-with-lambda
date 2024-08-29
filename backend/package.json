@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "deploy": "sls deploy",
+    "remove": "sls remove"
+  },
+  "dependencies": {
+    "stripe": "^16.8.0"
+  },
+  "devDependencies": {
+    "serverless-plugin-include-dependencies": "^6.1.1"
+  }
+}

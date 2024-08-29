@@ -1,0 +1,25 @@
+service: ecommerce-payments
+frameworkVersion: "3"
+
+custom:
+  project: kloudspace
+  app: payments
+  environment: production
+  region: eu-west-2
+  service: ${self:service}-${self:custom.environment}
+  lambda_function_base_name: ${self:custom.region}-${self:custom.project}-${self:custom.environment}-${self:custom.app}
+  strapi_secret_key_api: ${ssm:/stripe/${self:custom.environment}/key}
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: eu-west-2
+  memorySize: 128
+  stage: ${self:custom.environment}
+  timeout: 20
+  environment:
+    STRIPE_SECRET_API_KEY: ${self:custom.strapi_secret_key_api}
+
+plugins:
+  - serverless-plugin-common-excludes
+  - serverless-plugin-include-dependencies
