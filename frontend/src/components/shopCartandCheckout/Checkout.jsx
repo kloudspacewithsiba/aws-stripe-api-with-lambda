@@ -13,11 +13,6 @@ const countries = [
   "Turkey",
 ];
 
-// Make sure to call `loadStripe` outside of a component’s render to avoid
-// recreating the `Stripe` object on every render.
-// const stripePromise = loadStripe('pk_test_51PoaFI2M8acT2ud46zXvzSGGCetROSOObykLZ6JyW10m1mAuAixTirAbl2Hn9t2taolrVECV0FejpTi74MI3R2FN00MIaRgAtH');
-// const stripePromise = loadStripe("pk_test_51PoaFI2M8acT2ud46zXvzSGGCetROSOObykLZ6JyW10m1mAuAixTirAbl2Hn9t2taolrVECV0FejpTi74MI3R2FN00MIaRgAtH");
-
 
 export default function Checkout() {
 
@@ -339,12 +334,6 @@ export default function Checkout() {
             </div>
             <div className="checkout__payment-methods">
               <div className="form-check" style={{ paddingLeft: 0}}>
-              {/* <Elements stripe={stripePromise} options={{ mode: 'payment', currency: "usd", amount: 1000 }}>
-                <CheckoutForm /> 
-              </Elements> */}
-              {/* <Elements stripe={stripePromise} options={{ mode: 'payment', currency: "usd", amount: 100 }}>
-
-              </Elements> */}
               Stripe goes here
               </div>
 
