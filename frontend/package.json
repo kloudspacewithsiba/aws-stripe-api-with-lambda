@@ -1,0 +1,45 @@
+{
+  "name": "uomo-reactjs",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.19.3",
+    "@stripe/react-stripe-js": "^2.8.0",
+    "@stripe/stripe-js": "^4.3.0",
+    "bootstrap": "^5.0.2",
+    "json-loader": "^0.5.7",
+    "rc-slider": "^10.6.2",
+    "react": "^18.2.0",
+    "react-countdown": "^2.3.5",
+    "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.5",
+    "react-photoswipe-gallery": "^3.0.1",
+    "react-router-dom": "^6.23.1",
+    "react-tooltip": "^5.26.4",
+    "swiper": "^11.1.4",
+    "tippy.js": "^6.3.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "sass": "^1.77.4",
+    "vite": "^5.2.0"
+  },
+  "overrides": {
+    "eslint": {
+      "file-entry-cache": "^8.0.0"
+    }
+  }
+}

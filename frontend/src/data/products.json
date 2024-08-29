@@ -1,0 +1,1432 @@
+{
+  "allProducts": [
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "cat#608eb7ff-db1c-4e23-bb74-c7019cf7975f"
+          },
+          "sk": {
+            "S": "cat#608eb7ff-db1c-4e23-bb74-c7019cf7975f"
+          },
+          "category_name": {
+            "S": "STAYHOME"
+          },
+          "entityType": {
+            "S": "category"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "cat#b413ebe7-e225-4b04-88da-277149f5c38f"
+          },
+          "sk": {
+            "S": "cat#b413ebe7-e225-4b04-88da-277149f5c38f"
+          },
+          "category_name": {
+            "S": "JACKETS"
+          },
+          "entityType": {
+            "S": "category"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "cat#e0e309bb-1c19-45c0-8e9c-9261252fd8a2"
+          },
+          "sk": {
+            "S": "cat#e0e309bb-1c19-45c0-8e9c-9261252fd8a2"
+          },
+          "category_name": {
+            "S": "HOODIES"
+          },
+          "entityType": {
+            "S": "category"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "cat#b2baa9e9-2fde-4dcf-b338-177e77c8162b"
+          },
+          "sk": {
+            "S": "cat#b2baa9e9-2fde-4dcf-b338-177e77c8162b"
+          },
+          "category_name": {
+            "S": "MEN"
+          },
+          "entityType": {
+            "S": "category"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "cat#8df63d6e-65bb-48ca-8234-c7a2f3d916c7"
+          },
+          "sk": {
+            "S": "cat#8df63d6e-65bb-48ca-8234-c7a2f3d916c7"
+          },
+          "category_name": {
+            "S": "WOMEN"
+          },
+          "entityType": {
+            "S": "category"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "cat#46122adf-b50f-4b85-ad43-9f0d5a48b671"
+          },
+          "sk": {
+            "S": "cat#46122adf-b50f-4b85-ad43-9f0d5a48b671"
+          },
+          "category_name": {
+            "S": "ACCESSORIES"
+          },
+          "entityType": {
+            "S": "category"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "cat#e9f31ae1-a8bd-40bc-b685-2a44fb9fe7a6"
+          },
+          "sk": {
+            "S": "cat#e9f31ae1-a8bd-40bc-b685-2a44fb9fe7a6"
+          },
+          "category_name": {
+            "S": "SHOES"
+          },
+          "entityType": {
+            "S": "category"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "cat#dc0a8762-e22c-47de-807c-b6e8c3434638"
+          },
+          "sk": {
+            "S": "cat#dc0a8762-e22c-47de-807c-b6e8c3434638"
+          },
+          "category_name": {
+            "S": "NEWARRIVAL"
+          },
+          "entityType": {
+            "S": "category"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "cat#8e2068e5-e4fb-49ad-930d-0e018349cf82"
+          },
+          "sk": {
+            "S": "cat#8e2068e5-e4fb-49ad-930d-0e018349cf82"
+          },
+          "category_name": {
+            "S": "BESTSELLER"
+          },
+          "entityType": {
+            "S": "category"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "cat#78682ad7-4684-41a0-90db-69843bfceeb2"
+          },
+          "sk": {
+            "S": "cat#78682ad7-4684-41a0-90db-69843bfceeb2"
+          },
+          "category_name": {
+            "S": "TOPRATED"
+          },
+          "entityType": {
+            "S": "category"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "pro#081d9ecd-6ff3-45d0-8b70-f3ff5ce322a9"
+          },
+          "sk": {
+            "S": "pro#081d9ecd-6ff3-45d0-8b70-f3ff5ce322a9"
+          },
+          "entityType": {
+            "S": "product"
+          },
+          "product_name": {
+            "S": "Cropped Faux Leather Jacket"
+          },
+          "product_price": {
+            "N": "29"
+          },
+          "sale_price": {
+            "S": "29"
+          },
+          "product_short_description": {
+            "S": "Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui. Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra nunc, ut aliquet magna posuere eget."
+          },
+          "product_sizes": {
+            "L": [
+              { "S": "XS" },
+              { "S": "S" },
+              { "S": "M" },
+              { "S": "L" },
+              { "S": "XL" }
+            ]
+          },
+          "product_categories": {
+            "L": [{ "S": "cat#8df63d6e-65bb-48ca-8234-c7a2f3d916c7" }]
+          },
+          "product_sku": {
+            "S": "N/A"
+          },
+          "long_description": {
+            "S": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "additional_information": {
+            "L": [
+              {
+                "M": {
+                  "weight": {
+                    "S": "1.25"
+                  },
+                  "dimensions": {
+                    "S": "90 x 60 x 90 cm"
+                  },
+                  "size": {
+                    "S": "XS, S, M, L, XL"
+                  },
+                  "color": {
+                    "S": "Black, Orange, White"
+                  },
+                  "storage": {
+                    "S": "Relaxed fit shirt-style dress with a rugged."
+                  }
+                }
+              }
+            ]
+          },
+          "product_images": {
+            "L": [
+              {
+                "S": "product_1.jpeg"
+              },
+              {
+                "S": "product_1-1.jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "pro#bf623e69-a6fc-4824-b41c-d3857210773b"
+          },
+          "sk": {
+            "S": "pro#bf623e69-a6fc-4824-b41c-d3857210773b"
+          },
+          "entityType": {
+            "S": "product"
+          },
+          "product_name": {
+            "S": "Calvin Shorts"
+          },
+          "product_price": {
+            "N": "62"
+          },
+          "sale_price": {
+            "S": "62"
+          },
+          "product_short_description": {
+            "S": "Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui. Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra nunc, ut aliquet magna posuere eget."
+          },
+          "product_sizes": {
+            "L": [
+              { "S": "XS" },
+              { "S": "S" },
+              { "S": "M" },
+              { "S": "L" },
+              { "S": "XL" }
+            ]
+          },
+          "product_categories": {
+            "L": [{ "S": "cat#b2baa9e9-2fde-4dcf-b338-177e77c8162b" }]
+          },
+          "product_sku": {
+            "S": "N/A"
+          },
+          "long_description": {
+            "S": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "additional_information": {
+            "L": [
+              {
+                "M": {
+                  "weight": {
+                    "S": "1.25"
+                  },
+                  "dimensions": {
+                    "S": "90 x 60 x 90 cm"
+                  },
+                  "size": {
+                    "S": "XS, S, M, L, XL"
+                  },
+                  "color": {
+                    "S": "Black, Orange, White"
+                  },
+                  "storage": {
+                    "S": "Relaxed fit shirt-style dress with a rugged."
+                  }
+                }
+              }
+            ]
+          },
+          "product_images": {
+            "L": [
+              {
+                "S": "product_2.jpeg"
+              },
+              {
+                "S": "product_2-1.jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "pro#de88c9ec-e061-432c-be36-501f9730cf79"
+          },
+          "sk": {
+            "S": "pro#de88c9ec-e061-432c-be36-501f9730cf79"
+          },
+          "entityType": {
+            "S": "product"
+          },
+          "product_name": {
+            "S": "Kirby T-Shirt"
+          },
+          "product_price": {
+            "N": "62"
+          },
+          "sale_price": {
+            "S": "62"
+          },
+          "product_short_description": {
+            "S": "Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui. Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra nunc, ut aliquet magna posuere eget."
+          },
+          "product_sizes": {
+            "L": [
+              { "S": "XS" },
+              { "S": "S" },
+              { "S": "M" },
+              { "S": "L" },
+              { "S": "XL" }
+            ]
+          },
+          "product_categories": {
+            "L": [{ "S": "cat#b2baa9e9-2fde-4dcf-b338-177e77c8162b" }]
+          },
+          "product_sku": {
+            "S": "N/A"
+          },
+          "long_description": {
+            "S": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "additional_information": {
+            "L": [
+              {
+                "M": {
+                  "weight": {
+                    "S": "1.25"
+                  },
+                  "dimensions": {
+                    "S": "90 x 60 x 90 cm"
+                  },
+                  "size": {
+                    "S": "XS, S, M, L, XL"
+                  },
+                  "color": {
+                    "S": "Black, Orange, White"
+                  },
+                  "storage": {
+                    "S": "Relaxed fit shirt-style dress with a rugged."
+                  }
+                }
+              }
+            ]
+          },
+          "product_images": {
+            "L": [
+              {
+                "S": "product_3.jpeg"
+              },
+              {
+                "S": "product_3-1.jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "pro#32aca24a-5372-4a93-8b98-0f126870fd43"
+          },
+          "sk": {
+            "S": "pro#32aca24a-5372-4a93-8b98-0f126870fd43"
+          },
+          "entityType": {
+            "S": "product"
+          },
+          "product_name": {
+            "S": "Cableknit Shawl"
+          },
+          "product_price": {
+            "N": "129"
+          },
+          "sale_price": {
+            "S": "99"
+          },
+          "product_short_description": {
+            "S": "Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui. Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra nunc, ut aliquet magna posuere eget."
+          },
+          "product_sizes": {
+            "L": [
+              { "S": "XS" },
+              { "S": "S" },
+              { "S": "M" },
+              { "S": "L" },
+              { "S": "XL" }
+            ]
+          },
+          "product_categories": {
+            "L": [{ "S": "cat#b2baa9e9-2fde-4dcf-b338-177e77c8162b" }]
+          },
+          "product_sku": {
+            "S": "N/A"
+          },
+          "long_description": {
+            "S": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "additional_information": {
+            "L": [
+              {
+                "M": {
+                  "weight": {
+                    "S": "1.25"
+                  },
+                  "dimensions": {
+                    "S": "90 x 60 x 90 cm"
+                  },
+                  "size": {
+                    "S": "XS, S, M, L, XL"
+                  },
+                  "color": {
+                    "S": "Black, Orange, White"
+                  },
+                  "storage": {
+                    "S": "Relaxed fit shirt-style dress with a rugged."
+                  }
+                }
+              }
+            ]
+          },
+          "product_images": {
+            "L": [
+              {
+                "S": "product_4.jpeg"
+              },
+              {
+                "S": "product_4-1.jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "pro#77159072-2670-45e3-a60b-05912eebe95f"
+          },
+          "sk": {
+            "S": "pro#77159072-2670-45e3-a60b-05912eebe95f"
+          },
+          "entityType": {
+            "S": "product"
+          },
+          "product_name": {
+            "S": "Colorful Jacket"
+          },
+          "product_price": {
+            "N": "29"
+          },
+          "sale_price": {
+            "S": "29"
+          },
+          "product_short_description": {
+            "S": "Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui. Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra nunc, ut aliquet magna posuere eget."
+          },
+          "product_sizes": {
+            "L": [
+              { "S": "XS" },
+              { "S": "S" },
+              { "S": "M" },
+              { "S": "L" },
+              { "S": "XL" }
+            ]
+          },
+          "product_categories": {
+            "L": [{ "S": "cat#b2baa9e9-2fde-4dcf-b338-177e77c8162b" }]
+          },
+          "product_sku": {
+            "S": "N/A"
+          },
+          "long_description": {
+            "S": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "additional_information": {
+            "L": [
+              {
+                "M": {
+                  "weight": {
+                    "S": "1.25"
+                  },
+                  "dimensions": {
+                    "S": "90 x 60 x 90 cm"
+                  },
+                  "size": {
+                    "S": "XS, S, M, L, XL"
+                  },
+                  "color": {
+                    "S": "Black, Orange, White"
+                  },
+                  "storage": {
+                    "S": "Relaxed fit shirt-style dress with a rugged."
+                  }
+                }
+              }
+            ]
+          },
+          "product_images": {
+            "L": [
+              {
+                "S": "product_5.jpeg"
+              },
+              {
+                "S": "product_5-1.jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "pro#c82259d2-67b3-4971-82b5-c553a56bea7f"
+          },
+          "sk": {
+            "S": "pro#c82259d2-67b3-4971-82b5-c553a56bea7f"
+          },
+          "entityType": {
+            "S": "product"
+          },
+          "product_name": {
+            "S": "Shirt In Botanical Cheetah Print"
+          },
+          "product_price": {
+            "N": "62"
+          },
+          "sale_price": {
+            "S": "62"
+          },
+          "product_short_description": {
+            "S": "Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui. Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra nunc, ut aliquet magna posuere eget."
+          },
+          "product_sizes": {
+            "L": [
+              { "S": "XS" },
+              { "S": "S" },
+              { "S": "M" },
+              { "S": "L" },
+              { "S": "XL" }
+            ]
+          },
+          "product_categories": {
+            "L": [{ "S": "cat#8df63d6e-65bb-48ca-8234-c7a2f3d916c7" }]
+          },
+          "product_sku": {
+            "S": "N/A"
+          },
+          "long_description": {
+            "S": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "additional_information": {
+            "L": [
+              {
+                "M": {
+                  "weight": {
+                    "S": "1.25"
+                  },
+                  "dimensions": {
+                    "S": "90 x 60 x 90 cm"
+                  },
+                  "size": {
+                    "S": "XS, S, M, L, XL"
+                  },
+                  "color": {
+                    "S": "Black, Orange, White"
+                  },
+                  "storage": {
+                    "S": "Relaxed fit shirt-style dress with a rugged."
+                  }
+                }
+              }
+            ]
+          },
+          "product_images": {
+            "L": [
+              {
+                "S": "product_6.jpeg"
+              },
+              {
+                "S": "product_6-1.jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "pro#5af4b30e-9d04-45f4-bb2a-320bce2a9a33"
+          },
+          "sk": {
+            "S": "pro#5af4b30e-9d04-45f4-bb2a-320bce2a9a33"
+          },
+          "entityType": {
+            "S": "product"
+          },
+          "product_name": {
+            "S": "Cotton Jersey T-Shirt"
+          },
+          "product_price": {
+            "N": "17"
+          },
+          "sale_price": {
+            "S": "17"
+          },
+          "product_short_description": {
+            "S": "Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui. Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra nunc, ut aliquet magna posuere eget."
+          },
+          "product_sizes": {
+            "L": [
+              { "S": "XS" },
+              { "S": "S" },
+              { "S": "M" },
+              { "S": "L" },
+              { "S": "XL" }
+            ]
+          },
+          "product_categories": {
+            "L": [{ "S": "cat#b2baa9e9-2fde-4dcf-b338-177e77c8162b" }]
+          },
+          "product_sku": {
+            "S": "N/A"
+          },
+          "long_description": {
+            "S": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "additional_information": {
+            "L": [
+              {
+                "M": {
+                  "weight": {
+                    "S": "1.25"
+                  },
+                  "dimensions": {
+                    "S": "90 x 60 x 90 cm"
+                  },
+                  "size": {
+                    "S": "XS, S, M, L, XL"
+                  },
+                  "color": {
+                    "S": "Black, Orange, White"
+                  },
+                  "storage": {
+                    "S": "Relaxed fit shirt-style dress with a rugged."
+                  }
+                }
+              }
+            ]
+          },
+          "product_images": {
+            "L": [
+              {
+                "S": "product_7.jpeg"
+              },
+              {
+                "S": "product_7-1.jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "pro#79a12c13-793e-4b9e-8e2f-66cec3aa0b36"
+          },
+          "sk": {
+            "S": "pro#79a12c13-793e-4b9e-8e2f-66cec3aa0b36"
+          },
+          "entityType": {
+            "S": "product"
+          },
+          "product_name": {
+            "S": "Zessi Dresses"
+          },
+          "product_price": {
+            "N": "129"
+          },
+          "sale_price": {
+            "S": "99"
+          },
+          "product_short_description": {
+            "S": "Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui. Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra nunc, ut aliquet magna posuere eget."
+          },
+          "product_sizes": {
+            "L": [
+              { "S": "XS" },
+              { "S": "S" },
+              { "S": "M" },
+              { "S": "L" },
+              { "S": "XL" }
+            ]
+          },
+          "product_categories": {
+            "L": [{ "S": "cat#8df63d6e-65bb-48ca-8234-c7a2f3d916c7" }]
+          },
+          "product_sku": {
+            "S": "N/A"
+          },
+          "long_description": {
+            "S": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "additional_information": {
+            "L": [
+              {
+                "M": {
+                  "weight": {
+                    "S": "1.25"
+                  },
+                  "dimensions": {
+                    "S": "90 x 60 x 90 cm"
+                  },
+                  "size": {
+                    "S": "XS, S, M, L, XL"
+                  },
+                  "color": {
+                    "S": "Black, Orange, White"
+                  },
+                  "storage": {
+                    "S": "Relaxed fit shirt-style dress with a rugged."
+                  }
+                }
+              }
+            ]
+          },
+          "product_images": {
+            "L": [
+              {
+                "S": "product_8.jpeg"
+              },
+              {
+                "S": "product_8-1.jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "pro#6697a6db-65c0-4b5e-be41-8ad003cee666"
+          },
+          "sk": {
+            "S": "pro#6697a6db-65c0-4b5e-be41-8ad003cee666"
+          },
+          "entityType": {
+            "S": "product"
+          },
+          "product_name": {
+            "S": "Cropped Faux Leather Jacket"
+          },
+          "product_price": {
+            "N": "29"
+          },
+          "sale_price": {
+            "S": "29"
+          },
+          "product_short_description": {
+            "S": "Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui. Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra nunc, ut aliquet magna posuere eget."
+          },
+          "product_sizes": {
+            "L": [
+              { "S": "XS" },
+              { "S": "S" },
+              { "S": "M" },
+              { "S": "L" },
+              { "S": "XL" }
+            ]
+          },
+          "product_categories": {
+            "L": [{ "S": "cat#b413ebe7-e225-4b04-88da-277149f5c38f" }]
+          },
+          "product_sku": {
+            "S": "N/A"
+          },
+          "long_description": {
+            "S": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "additional_information": {
+            "L": [
+              {
+                "M": {
+                  "weight": {
+                    "S": "1.25"
+                  },
+                  "dimensions": {
+                    "S": "90 x 60 x 90 cm"
+                  },
+                  "size": {
+                    "S": "XS, S, M, L, XL"
+                  },
+                  "color": {
+                    "S": "Black, Orange, White"
+                  },
+                  "storage": {
+                    "S": "Relaxed fit shirt-style dress with a rugged."
+                  }
+                }
+              }
+            ]
+          },
+          "product_images": {
+            "L": [
+              {
+                "S": "product_9.jpeg"
+              },
+              {
+                "S": "product_9-1.jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "pro#6697a6db-65c0-4b5e-be41-8ad003cee666"
+          },
+          "sk": {
+            "S": "pro#6697a6db-65c0-4b5e-be41-8ad003cee666"
+          },
+          "entityType": {
+            "S": "product"
+          },
+          "product_name": {
+            "S": "Cropped Faux Leather Jacket"
+          },
+          "product_price": {
+            "N": "29"
+          },
+          "sale_price": {
+            "S": "29"
+          },
+          "product_short_description": {
+            "S": "Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui. Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra nunc, ut aliquet magna posuere eget."
+          },
+          "product_sizes": {
+            "L": [
+              { "S": "XS" },
+              { "S": "S" },
+              { "S": "M" },
+              { "S": "L" },
+              { "S": "XL" }
+            ]
+          },
+          "product_categories": {
+            "L": [{ "S": "cat#b413ebe7-e225-4b04-88da-277149f5c38f" }]
+          },
+          "product_sku": {
+            "S": "N/A"
+          },
+          "long_description": {
+            "S": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "additional_information": {
+            "L": [
+              {
+                "M": {
+                  "weight": {
+                    "S": "1.25"
+                  },
+                  "dimensions": {
+                    "S": "90 x 60 x 90 cm"
+                  },
+                  "size": {
+                    "S": "XS, S, M, L, XL"
+                  },
+                  "color": {
+                    "S": "Black, Orange, White"
+                  },
+                  "storage": {
+                    "S": "Relaxed fit shirt-style dress with a rugged."
+                  }
+                }
+              }
+            ]
+          },
+          "product_images": {
+            "L": [
+              {
+                "S": "product_9.jpeg"
+              },
+              {
+                "S": "product_9-1.jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "pro#4145f959-81c2-46fe-8fde-43fcdf5ec9a5"
+          },
+          "sk": {
+            "S": "pro#4145f959-81c2-46fe-8fde-43fcdf5ec9a5"
+          },
+          "entityType": {
+            "S": "product"
+          },
+          "product_name": {
+            "S": "Cableknit Shawl"
+          },
+          "product_price": {
+            "N": "17"
+          },
+          "sale_price": {
+            "S": "17"
+          },
+          "product_short_description": {
+            "S": "Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui. Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra nunc, ut aliquet magna posuere eget."
+          },
+          "product_sizes": {
+            "L": [
+              { "S": "XS" },
+              { "S": "S" },
+              { "S": "M" },
+              { "S": "L" },
+              { "S": "XL" }
+            ]
+          },
+          "product_categories": {
+            "L": [{ "S": "cat#b413ebe7-e225-4b04-88da-277149f5c38f" }]
+          },
+          "product_sku": {
+            "S": "N/A"
+          },
+          "long_description": {
+            "S": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "additional_information": {
+            "L": [
+              {
+                "M": {
+                  "weight": {
+                    "S": "1.25"
+                  },
+                  "dimensions": {
+                    "S": "90 x 60 x 90 cm"
+                  },
+                  "size": {
+                    "S": "XS, S, M, L, XL"
+                  },
+                  "color": {
+                    "S": "Black, Orange, White"
+                  },
+                  "storage": {
+                    "S": "Relaxed fit shirt-style dress with a rugged."
+                  }
+                }
+              }
+            ]
+          },
+          "product_images": {
+            "L": [
+              {
+                "S": "product_11.jpeg"
+              },
+              {
+                "S": "product_11-1.jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "pro#d368e003-a099-43a3-999f-e4d0ac2c2a0e"
+          },
+          "sk": {
+            "S": "pro#d368e003-a099-43a3-999f-e4d0ac2c2a0e"
+          },
+          "entityType": {
+            "S": "product"
+          },
+          "product_name": {
+            "S": "Kirby T-Shirt"
+          },
+          "product_price": {
+            "N": "17"
+          },
+          "sale_price": {
+            "S": "17"
+          },
+          "product_short_description": {
+            "S": "Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui. Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra nunc, ut aliquet magna posuere eget."
+          },
+          "product_sizes": {
+            "L": [
+              { "S": "XS" },
+              { "S": "S" },
+              { "S": "M" },
+              { "S": "L" },
+              { "S": "XL" }
+            ]
+          },
+          "product_categories": {
+            "L": [{ "S": "cat#dc0a8762-e22c-47de-807c-b6e8c3434638" }]
+          },
+          "product_sku": {
+            "S": "N/A"
+          },
+          "long_description": {
+            "S": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "additional_information": {
+            "L": [
+              {
+                "M": {
+                  "weight": {
+                    "S": "1.25"
+                  },
+                  "dimensions": {
+                    "S": "90 x 60 x 90 cm"
+                  },
+                  "size": {
+                    "S": "XS, S, M, L, XL"
+                  },
+                  "color": {
+                    "S": "Black, Orange, White"
+                  },
+                  "storage": {
+                    "S": "Relaxed fit shirt-style dress with a rugged."
+                  }
+                }
+              }
+            ]
+          },
+          "product_images": {
+            "L": [
+              {
+                "S": "product_12.jpeg"
+              },
+              {
+                "S": "product_12-1.jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "pro#b1aa274d-5827-4f9b-abaa-cdeb6846c8ee"
+          },
+          "sk": {
+            "S": "pro#b1aa274d-5827-4f9b-abaa-cdeb6846c8ee"
+          },
+          "entityType": {
+            "S": "product"
+          },
+          "product_name": {
+            "S": "Colorful Jacket"
+          },
+          "product_price": {
+            "N": "29"
+          },
+          "sale_price": {
+            "S": "29"
+          },
+          "product_short_description": {
+            "S": "Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui. Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra nunc, ut aliquet magna posuere eget."
+          },
+          "product_sizes": {
+            "L": [
+              { "S": "XS" },
+              { "S": "S" },
+              { "S": "M" },
+              { "S": "L" },
+              { "S": "XL" }
+            ]
+          },
+          "product_categories": {
+            "L": [{ "S": "cat#dc0a8762-e22c-47de-807c-b6e8c3434638" }]
+          },
+          "product_sku": {
+            "S": "N/A"
+          },
+          "long_description": {
+            "S": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "additional_information": {
+            "L": [
+              {
+                "M": {
+                  "weight": {
+                    "S": "1.25"
+                  },
+                  "dimensions": {
+                    "S": "90 x 60 x 90 cm"
+                  },
+                  "size": {
+                    "S": "XS, S, M, L, XL"
+                  },
+                  "color": {
+                    "S": "Black, Orange, White"
+                  },
+                  "storage": {
+                    "S": "Relaxed fit shirt-style dress with a rugged."
+                  }
+                }
+              }
+            ]
+          },
+          "product_images": {
+            "L": [
+              {
+                "S": "product_13.jpeg"
+              },
+              {
+                "S": "product_13-1.jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "pro#9d01b96e-727c-4bf1-95be-794750d4085c"
+          },
+          "sk": {
+            "S": "pro#9d01b96e-727c-4bf1-95be-794750d4085c"
+          },
+          "entityType": {
+            "S": "product"
+          },
+          "product_name": {
+            "S": "Colorful Jacket"
+          },
+          "product_price": {
+            "N": "29"
+          },
+          "sale_price": {
+            "S": "29"
+          },
+          "product_short_description": {
+            "S": "Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui. Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra nunc, ut aliquet magna posuere eget."
+          },
+          "product_sizes": {
+            "L": [
+              { "S": "XS" },
+              { "S": "S" },
+              { "S": "M" },
+              { "S": "L" },
+              { "S": "XL" }
+            ]
+          },
+          "product_categories": {
+            "L": [{ "S": "cat#dc0a8762-e22c-47de-807c-b6e8c3434638" }]
+          },
+          "product_sku": {
+            "S": "N/A"
+          },
+          "long_description": {
+            "S": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "additional_information": {
+            "L": [
+              {
+                "M": {
+                  "weight": {
+                    "S": "1.25"
+                  },
+                  "dimensions": {
+                    "S": "90 x 60 x 90 cm"
+                  },
+                  "size": {
+                    "S": "XS, S, M, L, XL"
+                  },
+                  "color": {
+                    "S": "Black, Orange, White"
+                  },
+                  "storage": {
+                    "S": "Relaxed fit shirt-style dress with a rugged."
+                  }
+                }
+              }
+            ]
+          },
+          "product_images": {
+            "L": [
+              {
+                "S": "product_14.jpeg"
+              },
+              {
+                "S": "product_14-1.jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "pro#54ce35a2-43f3-40eb-bc57-187765ca8654"
+          },
+          "sk": {
+            "S": "pro#54ce35a2-43f3-40eb-bc57-187765ca8654"
+          },
+          "entityType": {
+            "S": "product"
+          },
+          "product_name": {
+            "S": "Cotton Jersey T-Shirt"
+          },
+          "product_price": {
+            "N": "17"
+          },
+          "sale_price": {
+            "S": "17"
+          },
+          "product_short_description": {
+            "S": "Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui. Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra nunc, ut aliquet magna posuere eget."
+          },
+          "product_sizes": {
+            "L": [
+              { "S": "XS" },
+              { "S": "S" },
+              { "S": "M" },
+              { "S": "L" },
+              { "S": "XL" }
+            ]
+          },
+          "product_categories": {
+            "L": [{ "S": "cat#dc0a8762-e22c-47de-807c-b6e8c3434638" }]
+          },
+          "product_sku": {
+            "S": "N/A"
+          },
+          "long_description": {
+            "S": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "additional_information": {
+            "L": [
+              {
+                "M": {
+                  "weight": {
+                    "S": "1.25"
+                  },
+                  "dimensions": {
+                    "S": "90 x 60 x 90 cm"
+                  },
+                  "size": {
+                    "S": "XS, S, M, L, XL"
+                  },
+                  "color": {
+                    "S": "Black, Orange, White"
+                  },
+                  "storage": {
+                    "S": "Relaxed fit shirt-style dress with a rugged."
+                  }
+                }
+              }
+            ]
+          },
+          "product_images": {
+            "L": [
+              {
+                "S": "product_15.jpeg"
+              },
+              {
+                "S": "product_15-1.jpeg"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "pk": {
+            "S": "pro#f592f2f1-2acb-45b3-8f51-3e3d4f5c5572"
+          },
+          "sk": {
+            "S": "pro#f592f2f1-2acb-45b3-8f51-3e3d4f5c5572"
+          },
+          "entityType": {
+            "S": "product"
+          },
+          "product_name": {
+            "S": "Zessi Dresses"
+          },
+          "product_price": {
+            "N": "129"
+          },
+          "sale_price": {
+            "S": "99"
+          },
+          "product_short_description": {
+            "S": "Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui. Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra nunc, ut aliquet magna posuere eget."
+          },
+          "product_sizes": {
+            "L": [
+              { "S": "XS" },
+              { "S": "S" },
+              { "S": "M" },
+              { "S": "L" },
+              { "S": "XL" }
+            ]
+          },
+          "product_categories": {
+            "L": [{ "S": "cat#dc0a8762-e22c-47de-807c-b6e8c3434638" }]
+          },
+          "product_sku": {
+            "S": "N/A"
+          },
+          "long_description": {
+            "S": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "additional_information": {
+            "L": [
+              {
+                "M": {
+                  "weight": {
+                    "S": "1.25"
+                  },
+                  "dimensions": {
+                    "S": "90 x 60 x 90 cm"
+                  },
+                  "size": {
+                    "S": "XS, S, M, L, XL"
+                  },
+                  "color": {
+                    "S": "Black, Orange, White"
+                  },
+                  "storage": {
+                    "S": "Relaxed fit shirt-style dress with a rugged."
+                  }
+                }
+              }
+            ]
+          },
+          "product_images": {
+            "L": [
+              {
+                "S": "product_16.jpeg"
+              },
+              {
+                "S": "product_16-1.jpeg"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
